@@ -71,15 +71,3 @@ console.log(jsonTres);
 console.log(jsonQuatro);
 console.log(jsonCinco);
 console.log(jsonSeis);
-
-//senha
-
-function logar(){
-    var login = document.getElementById('login').value;
-
-    var senha = document.getElementById('senha').value;
-
-    if(login == "aaa" && senha == "123"){
-        console.log("parabéns")
-    }
-}
